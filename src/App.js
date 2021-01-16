@@ -1,7 +1,9 @@
+import React from 'react';
+import { MyFirstComponent } from './components/myfirstcomponent/MyFirstComponent.js';
 function App() {
   return (
     <>
-      <h1>Hello!</h1>
+      <MyFirstComponent firstName="Linus" lastName="Schölander" />
     </>
   );
 }
